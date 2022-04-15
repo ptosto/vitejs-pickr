@@ -1,6 +1,7 @@
 <template>
   <h3>Pete's Wordle Picker</h3>
-  <img alt="Pickr logo" src="http://pthosted.com/pickr/PetesWordlPickr.png" />
+  <img alt="Pickr logo" src="https://google.com" />
+  http://pthosted.com/pickr/PetesWordlPickr.png"
   <scroll-picker
     :wheel-speed="wheelSpeed"
     style="background: white; height: 200px"

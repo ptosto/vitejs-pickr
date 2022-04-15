@@ -3,9 +3,10 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 //import HelloWorld from './components/HelloWorld.vue'
 import HelloWorld from './components/Picker.vue';
+//<img alt="Pickr logo" src="http://pthosted.com/pickr/PetesWordlPickr.png" />
+
 </script>
 
-<img alt="Pickr logo" src="http://pthosted.com/pickr/PetesWordlPickr.png" />
   
 
 <template>
