@@ -1,7 +1,5 @@
 <template>
-  <h3>Pete's Wordle Picker</h3>
-  <img alt="Pickr logo" src=".assets/" />
-  http://pthosted.com/pickr/PetesWordlPickr.png"
+  <img src="../assets/PetesWordlPickr.png" alt="Pickrrrr logo" />
   <scroll-picker
     :wheel-speed="wheelSpeed"
     style="background: white; height: 200px"
@@ -25,14 +23,18 @@
       <div class="custom-center-overlay"></div>
     </template>
   </scroll-picker>
-  <div style="margin-top: 30px">
+  <div style="margin-top: 30px; display: none">
     {{ selections }}
   </div>
   <div style="padding-top: 30px">
-    <span style="font-size: 14px; padding-right: 10px">Wheel Speed:</span>
+    <span style="display: none; font-size: 14px; padding-right: 10px"
+      >Wheel Speed:</span
+    >
     <input v-model="wheelSpeed" />
   </div>
-  <button style="margin-top: 30px" @click="onClickRandom">Random</button>
+  <button style="margin-top: 30px; display: none" @click="onClickRandom">
+    Random
+  </button>
 </template>
 
 <script lang="ts">
